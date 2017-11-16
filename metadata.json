@@ -1,0 +1,25 @@
+{
+  "name": "luksi1/fstab",
+  "version": "0.1.0",
+  "author": "luksi1",
+  "summary": "The fstab module helps puppet manage entries in fstab",
+  "license": "Apache-2.0",
+  "source": "https://github.com/luksi1/puppet-fstab",
+  "project_page": "https://github.com/luksi1/puppet-fstab",
+  "issues_url": "https://github.com/luksi1/puppet-fstab",
+  "dependencies": [
+    {"name": "puppetlabs-stdlib","version_requirement": ">= 1.0.0"}
+  ],
+  "requirements": [
+  	    {"name": "puppet", "version_requirement": "4.x"}
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "14.04",
+        "16.04"
+      ]
+    }
+  ]
+}
